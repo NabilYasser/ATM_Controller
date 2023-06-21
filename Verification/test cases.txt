@@ -1,0 +1,13 @@
+test cases:
+client 3 : password right -> with draw operation = 90 -> balance = 1841 -> 1751
+client 4 : password wrong -> password right -> depoist = 800 -> balance = 7343 -> 8143
+client 5 : password wrong -> password wrong - > password right -> show balance operation -> balance = 2653
+client 1 : password right -> inactive
+clent 2 : password right -> change password -> new password -> 8998
+
+## enter password wrong 5 times
+clent 3 : password wrong -> password wrong -> password wrong -> password wrong -> password wrong -> inactive
+
+##withdraw more than your balance 
+client 4 : password right -> dwithdraw = 9000 -> balance = 8143 -> insufficient
+ 
